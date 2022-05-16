@@ -1,0 +1,89 @@
+
+  form[action="Contact.html"] input{
+    height: 25px;
+    width: 230px;
+    color:#464244;
+    font-size: 15px;
+  }
+ form[action="Contact.html"] input[type="submit"]{
+    color: #000000;
+    border-radius: 0 10px;
+  }
+  
+ body{
+    font-family:"Nefelibata Script",sans-serif;
+    background-color: #d4d0d2;
+  }
+ a{
+    color: #0c0007;
+    font-size: 19px;
+    text-decoration: none;
+    
+  }
+p{
+    font-family:"roboto condensed",sans-serif;
+    font-size: 16px;
+  }
+  li{
+    list-style-type: none;
+  }
+  h1{
+    color:#585657;
+  }
+ h2,h3,h4{
+    color: black;
+    font-size: 20px;
+    font-weight:400;
+    background-color: #b9b6b6;
+  }
+ img{
+    border: 4px double #161516;
+  }
+  img[class="logo"] {
+    border: none;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    width: 430px;
+    min-height: auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    background:#636464;
+    white-space: nowrap;
+}
+    
+.main-menu li{
+    display:inline-block;
+    border-left:2px solid #2C3E50;
+    padding:0;
+    margin:0;
+}
+    
+.main-menu li a{
+    display:block;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    padding: 10px 10px 10px 15px;
+    text-align: center;
+    font-weight: bold; 
+  
+}
+
+
+.main-menu .active{
+    background:#1ABC9C;
+    margin-right:-4px;
+    padding-right: 4px;
+}
